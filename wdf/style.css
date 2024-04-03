@@ -1,0 +1,128 @@
+/* Reset default Bootstrap styles (optional) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px; /* Add some padding for better spacing */
+  }
+  
+  .navbar .nav-link {
+    color: #333; /* Dark text */
+    padding: 10px 20px;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #007bff; /* Blue hover color */
+  }
+  
+  .navbar .dropdown-menu {
+    background-color: #fff; /* White background for dropdown */
+    border-radius: 0 0 5px 5px; /* Rounded corners */
+  }
+  
+  .dropdown-item {
+    color: #333; /* Dark text for dropdown items */
+    padding: 10px 20px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1; /* Light gray hover color for dropdown items */
+  }
+  
+  /* Optional: Add a border to the top of the navbar */
+  .navbar {
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #3399ff; /* Blue header */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text */
+    display: flex; /* Make the header a flex container for button placement */
+    justify-content: space-between; /* Align buttons at opposite ends */
+    align-items: center; /* Align buttons vertically */
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex; /* Make the buttons a flex container */
+    justify-content: space-between; /* Distribute buttons evenly */
+  }
+  
+  .buttons button {
+    background-color: #3399ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; /* Add some margin between buttons */
+  }
+  
+  /* Main content styling */
+  .main {
+    padding: 50px;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .hero button {
+    background-color: #3399ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .features {
+    margin-bottom: 50px;
+  }
+  
+  .features h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #3399ff;
+    padding: 10px 20px; /* Add some padding for better spacing */
+    text-align: center;
+    color: #fff; /* White text */
+  }
+  
